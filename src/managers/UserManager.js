@@ -2,9 +2,6 @@ var UserSchema = require('../schemas/UserSchema');
 
 module.exports = {
 	createUser: function (userObj, callback) {
-
-		console.log(JSON.stringify(userObj));
-
 		var user = new UserSchema();
 
 		user.user_name = {};
